@@ -133,7 +133,6 @@ func createCar(c *fiber.Ctx) error {
 	if err := c.BodyParser(&a); err != nil {
 		return c.Status(400).SendString(err.Error())
 	}
-
 	_, err := db.Exec(`
 		INSERT INTO cars (brand_id, model_id, year)
 		VALUES (?, ?, ?)
@@ -155,7 +154,7 @@ func updateCar(c *fiber.Ctx) error {
 		UPDATE cars
 		SET brand_id = ?, model_id = ?, year = ?
 		WHERE id = ?
-	`, a.Brand, a.Model, a.Year, id)
+	`, a.Brand_id, a.Model_id, a.Year, id)
 	if err != nil {
 		return c.Status(500).SendString(err.Error())
 	}
