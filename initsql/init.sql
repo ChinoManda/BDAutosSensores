@@ -89,4 +89,9 @@ INSERT INTO models(name, brand_id) VALUES
 ('CR-V', 6);
 
 
-INSERT INTO cars(year, brand_id, model_id, engine_id ,displacement_id) VALUES ('1993', 1, 1, 1 ,9);
+INSERT INTO cars(year, brand_id, model_id, engine_id ,displacement_id) VALUES ('1993', 1, 1, 1, 9);
+
+INSERT INTO cars(year, brand_id, model_id, engine_id ,displacement_id) VALUES ('1991', 2, 9, 2, 5);
+INSERT INTO cars(year, brand_id, model_id, engine_id ,displacement_id) VALUES ('2005', 6, 21, 3 ,5);
+INSERT INTO cars(year, brand_id, model_id, engine_id ,displacement_id) VALUES ('1986', 3, 11, 4 ,7);
+INSERT INTO cars(year, brand_id, model_id, engine_id ,displacement_id) VALUES ('2018', 1, 3, 5 ,12);
