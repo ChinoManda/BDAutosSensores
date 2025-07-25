@@ -96,7 +96,7 @@ func main (){
     }
 
 	url := "http://localhost:8086"
-	token :=	"fcB4y7pynbxa3tnn-laLye0H-LeGSJ_uehM__H2VWskV0_orCoJeYNjGSsiADjSp8GjyvlkM8V69PKSnlFhuxg=="
+	token :=	"ra0ux1KSuaQ3Zwz9QvwTCf_dLfEVCJ3CfM5DtNCZCH42jpgwwOndtt16pyM1n-4xWHoePu-2ExFNVw4dZPVBGg=="
 	org := "mi-org"
 	bucket := "telemetry"
 
@@ -125,8 +125,5 @@ func main (){
         } else {
             fmt.Printf(">> [%s] rpm: %d | vel: %.1f km/h | tps: %.2f\n", c.ID, c.RPM, c.Speed, c.TPS)
         }
-
-	}
-
-					
+	}					
 }
