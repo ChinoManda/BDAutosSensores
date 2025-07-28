@@ -21,7 +21,7 @@ CREATE TABLE engines(
 
 CREATE TABLE displacements(
   id INT AUTO_INCREMENT PRIMARY KEY,
-  CC INT
+  CC float
 );
 
 CREATE TABLE cars(
